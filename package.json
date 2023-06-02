@@ -9,13 +9,13 @@
         "LICENSE",
         "package.json",
         "design.md",
-        "readme.md"
+        "README.md"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tsc",
-        "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-        "lint": "eslint \"{src}/**/*.ts\" --fix",
+        "format": "prettier --write \"src/*/.ts\"",
+        "lint": "eslint \"src/*/.ts\" --fix",
         "prepare": "pnpm build",
         "prepublishOnly": "pnpm lint",
         "preversion": "pnpm lint",
