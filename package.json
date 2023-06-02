@@ -1,6 +1,6 @@
 {
     "name": "chinweoke-lord-of-the-ring-sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This is an SDK for the Lord of the Rings",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
