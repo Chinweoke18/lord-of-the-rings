@@ -5,11 +5,11 @@ This is an SDK for the Lord of the Rings
 ## Installation
 
 ```shell
-pnpm install lord-of-the-ring-sdk
+pnpm install chinweoke-lord-of-the-ring-sdk
 #or
-npm install lord-of-the-ring-sdk
+npm install chinweoke-lord-of-the-ring-sdk
 #or
-yarn add lord-of-the-ring-sdk
+yarn add chinweoke-lord-of-the-ring-sdk
 ```
 
 ## Usage
@@ -23,13 +23,13 @@ First, obtain your Access token by Signing Up on the platform.
 Note: In order to gain the TypeScript typings (for intellisense / autocomplete) while using CommonJS, use require().default as seen below:
 
 ```js
-const LordOfTheRings = require("lord-of-the-ring-sdk").default;
+const LordOfTheRings = require("chinweoke-lord-of-the-ring-sdk").default;
 ```
 
 **ES8 Usage**
 
 ```ts
-import LordOfTheRings from "lord-of-the-ring-sdk";
+import LordOfTheRings from "chinweoke-lord-of-the-ring-sdk";
 
 const lordOfTheRings = new LordOfTheRings({
     accessToken: "Your Access Token",

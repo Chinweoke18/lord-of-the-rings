@@ -1,5 +1,5 @@
 {
-    "name": "lord-of-the-ring-sdk",
+    "name": "chinweoke-lord-of-the-ring-sdk",
     "version": "1.0.0",
     "description": "This is an SDK for the Lord of the Rings",
     "main": "dist/index.js",
@@ -14,8 +14,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "tsc",
-        "format": "prettier --write \"src/*/.ts\"",
-        "lint": "eslint \"src/*/.ts\" --fix",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "lint": "eslint \"src/**/*.ts\" --fix",
         "prepare": "pnpm build",
         "prepublishOnly": "pnpm lint",
         "preversion": "pnpm lint",
