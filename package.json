@@ -25,7 +25,7 @@
     "keywords": [
         "movie"
     ],
-    "author": "Okwor Chinweoke Cyprian <okworchinweoke@gmail.com>",
+    "author": "Okwor Chinweoke <okworchinweoke@gmail.com>",
     "license": "MIT",
     "devDependencies": {
         "@types/node": "^20.2.5",

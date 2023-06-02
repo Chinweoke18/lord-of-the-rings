@@ -7,7 +7,7 @@ This is an SDK for the Lord of the Rings
 ```shell
 pnpm install lord-of-the-ring-sdk
 #or
-npm installlord-of-the-ring-sdk
+npm install lord-of-the-ring-sdk
 #or
 yarn add lord-of-the-ring-sdk
 ```

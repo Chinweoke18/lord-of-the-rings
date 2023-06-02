@@ -242,6 +242,9 @@ export default class LordOfTheRings {
     }
 
     private buildUrlQuery(options: FetchOptions, url: string) {
+        if (!options) {
+            return url;
+        }
         //pagination
         if (options.page) {
             url = `${url}&page=${options.page}`;
